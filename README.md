@@ -46,6 +46,10 @@ If you want to install `nbb` locally in the project, run `npm install
 nbb@latest` and use `node_modules/.bin/nbb` instead run nbb (this starts
 faster than `npx nbb`).
 
+## External tools
+
+- [Create AoC badges](https://github.com/genmeblog/advent-of-code/blob/master/badges/badges.bb)
+
 # License
 
 This code is unlicensed, you can fork / clone it and use it however you want.
