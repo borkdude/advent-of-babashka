@@ -1,4 +1,4 @@
-# Advent of Babashka 2022
+# Advent of Babashka
 
 A project for doing Advent of Code using
 [babashka](https://github.com/babashka/babashka) and
