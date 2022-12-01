@@ -1,6 +1,8 @@
-# Advent of Code 2022
+# Advent of Babashka 2022
 
-A template project for doing Advent of Code using [babashka](https://github.com/babashka/babashka) and [nbb](https://github.com/babashka/nbb).
+A project for doing Advent of Code using
+[babashka](https://github.com/babashka/babashka) and
+[nbb](https://github.com/babashka/nbb).
 
 To install babashka, check [here](https://github.com/babashka/babashka#installation).
 To install nbb: `npm install -g nbb`. Nbb 1.0.151 or higher is required.
