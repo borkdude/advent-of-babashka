@@ -14,7 +14,7 @@
                             (map parse-long)))))
 
 (defn part-1
-  "Run with (n)bb -x aoc22.part-1"
+  "Run with (n)bb -x aoc22.day01/part-1"
   [_]
   (->> input
        (partition-by nil?)
@@ -24,7 +24,7 @@
        prn))
 
 (defn part-2
-  "Run with (n)bb -x aoc22.part-2"
+  "Run with (n)bb -x aoc22.day02/part-2"
   [_]
   (->> input
        (partition-by nil?)
