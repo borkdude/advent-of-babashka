@@ -30,6 +30,16 @@ clj -M:cli clojure.core/prn --flag --option 1
 {:flag true, :option 1}
 ```
 
+## Generating stub for new day
+
+To generate a stub for a new day, run:
+
+```
+$ bb new-day --year 22 --day 02
+```
+
+The `--year` currently defaults to `22`.
+
 ## Nbb startup
 
 If you want to install `nbb` locally in the project, run `npm install
