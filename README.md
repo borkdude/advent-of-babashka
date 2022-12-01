@@ -14,10 +14,6 @@ $ bb -x aoc22.day01/part-1 [...args]
 $ nbb -x aoc22.day01/part-1 [...args]
 ```
 
-If you want to install `nbb` locally in the project, run `npm install
-nbb@latest` and use `node_modules/.bin/nbb` instead to run nbb (this starts
-faster than `npx nbb`).
-
 Each solution can take parameters from the command line if necessary.  Arguments
 are parsed using
 [babashka.cli](https://github.com/babashka/cli/blob/main/src/babashka/cli.cljc):
@@ -26,6 +22,19 @@ are parsed using
 $ bb -x clojure.core/prn --flag --option 1
 {:flag true, :option 1}
 ```
+
+You can also use Clojure JVM with the same argument parsing:
+
+```
+clj -M:cli clojure.core/prn --flag --option 1
+{:flag true, :option 1}
+```
+
+## Nbb startup
+
+If you want to install `nbb` locally in the project, run `npm install
+nbb@latest` and use `node_modules/.bin/nbb` instead to run nbb (this starts
+faster than `npx nbb`).
 
 # License
 

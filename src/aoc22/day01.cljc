@@ -20,7 +20,8 @@
        (partition-by nil?)
        (take-nth 2)
        (map #(apply + %))
-       (apply max)))
+       (apply max)
+       prn))
 
 (defn part-2
   "Run with (n)bb -x aoc22.part-2"
@@ -31,4 +32,5 @@
        (map #(apply + %))
        (sort-by -)
        (take 3)
-       (apply +)))
+       (apply +)
+       prn))
