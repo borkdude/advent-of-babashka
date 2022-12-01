@@ -5,7 +5,7 @@ A project for doing Advent of Code using
 [nbb](https://github.com/babashka/nbb).
 
 To install babashka, check [here](https://github.com/babashka/babashka#installation).
-To install nbb: `npm install -g nbb`. Nbb 1.0.151 or higher is required.
+To install nbb: `npm install -g nbb`. Nbb 1.1.151 or higher is required.
 
 The first puzzle is in `src/aoc22/day01.cljc`. You can execute part 1 in both `bb` and `nbb` using:
 
