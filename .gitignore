@@ -5,3 +5,4 @@ package-lock.json
 node_modules
 *.mjs
 *_cherry.*
+.DS_Store

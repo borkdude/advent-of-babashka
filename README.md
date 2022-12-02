@@ -46,6 +46,16 @@ If you want to install `nbb` locally in the project, run `npm install
 nbb@latest` and use `node_modules/.bin/nbb` instead run nbb (this starts
 faster than `npx nbb`).
 
+## Github Codespaces
+
+To use this template in Github Codespaces, click Use this template > Open in a codespace.
+
+<img src="open-in-codespace.png">
+
+Then in the terminal, run `sudo bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)` to install babashka.
+
+<img src="codespace.png">
+
 ## External tools
 
 - [Create AoC badges](https://github.com/genmeblog/advent-of-code/blob/master/badges/badges.bb)
