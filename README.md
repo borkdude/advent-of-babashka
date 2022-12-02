@@ -56,13 +56,17 @@ To use this template in Github Codespaces, click Use this template > Open in a c
 
 <img src="img/open-in-codespace.png">
 
-Then in the terminal, run
+To install babashka, run
 
 ```
 sudo bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)
 ```
 
-to install babashka.
+To install nbb, run:
+
+```
+npm install -g nbb@latest
+```
 
 <img src="img/codespace.png">
 
