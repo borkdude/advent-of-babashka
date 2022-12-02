@@ -1,6 +1,6 @@
 # Advent of Babashka
 
-A project for doing Advent of Code using
+A project for doing [Advent of Code](https://adventofcode.com/) using
 [babashka](https://github.com/babashka/babashka) and
 [nbb](https://github.com/babashka/nbb).
 
@@ -39,6 +39,16 @@ $ bb new-day --year 22 --day 02
 ```
 
 The `--year` currently defaults to `22`.
+
+## Downloading input
+
+To download your puzzle input from the Advent of Code website automatically, set
+the `AOC_SESSION` environment variable to your Advent of Code session
+cookie. You can find this by going to your browser's developer console.
+
+<img src="img/session.png">
+
+You can also just download your puzzle input manually.
 
 ## Github Codespaces
 
