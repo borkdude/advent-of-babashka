@@ -40,12 +40,6 @@ $ bb new-day --year 22 --day 02
 
 The `--year` currently defaults to `22`.
 
-## Nbb startup
-
-If you want to install `nbb` locally in the project, run `npm install
-nbb@latest` and use `node_modules/.bin/nbb` instead run nbb (this starts
-faster than `npx nbb`).
-
 ## Github Codespaces
 
 To use this template in Github Codespaces, click Use this template > Open in a codespace.
@@ -61,6 +55,12 @@ sudo bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master
 to install babashka.
 
 <img src="img/codespace.png">
+
+## Nbb startup
+
+If you want to install `nbb` locally in the project, run `npm install
+nbb@latest` and use `node_modules/.bin/nbb` instead run nbb (this starts
+faster than `npx nbb`).
 
 ## External tools
 
