@@ -31,7 +31,8 @@
         (if-let [session (System/getenv "AOC_SESSION")]
           (let [input-url (format "https://adventofcode.com/2022/day/%s/input" (strip-leading-zero day-number))]
             (println "Retrieving input from" input-url)
-            (let [body (:body (curl/get input-url {:headers {"Cookie" (str "session=" session)}}))]
+            (let [body (:body (curl/get input-url {:headers {"Cookie" (str "session=" session)
+                                                             "User-Agent" "github.com/borkdude/advent-of-babashka-template by michielborkent@gmail.com"}}))]
               (spit new-day-resource body)))
           (do (println "Tip: set the AOC_SESSION environment variable to the Advent of Code session cookie to retrieve your input automatically!")
               (println "For now, a copy of the input of day 1 is copied as a stub.")
