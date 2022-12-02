@@ -50,11 +50,11 @@ faster than `npx nbb`).
 
 To use this template in Github Codespaces, click Use this template > Open in a codespace.
 
-<img src="open-in-codespace.png">
+<img src="img/open-in-codespace.png">
 
 Then in the terminal, run `sudo bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)` to install babashka.
 
-<img src="codespace.png">
+<img src="img/codespace.png">
 
 ## External tools
 
