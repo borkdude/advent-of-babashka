@@ -35,7 +35,7 @@ clj -M:cli clojure.core/prn --flag --option 1
 To generate a stub for a new day, run:
 
 ```
-$ bb new-day --year 22 --day 02
+$ bb new-day --year 22 --day 2
 ```
 
 The `--year` currently defaults to `22`.
