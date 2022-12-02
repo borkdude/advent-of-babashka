@@ -52,7 +52,13 @@ To use this template in Github Codespaces, click Use this template > Open in a c
 
 <img src="img/open-in-codespace.png">
 
-Then in the terminal, run `sudo bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)` to install babashka.
+Then in the terminal, run
+
+```
+sudo bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)
+```
+
+to install babashka.
 
 <img src="img/codespace.png">
 
