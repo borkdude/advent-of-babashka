@@ -1,5 +1,5 @@
 {:paths ["bb" "src" "resources"]
- :tasks {new-day {:doc "Generates stub for day. Usage: bb nen-day --year 22 --day 02"
+ :tasks {new-day {:doc "Generates stub for day. Usage: bb new-day --year 22 --day 02"
                   :requires ([babashka.fs :as fs]
                              [clojure.string :as str])
                   :task (exec 'new-day/new-day)}}}
