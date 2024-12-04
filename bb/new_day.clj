@@ -24,12 +24,12 @@
         day01 (slurp (fs/file "src" "aoc22" "day01.cljc"))
         replaced (str/replace day01 "aoc22" new-year)
         replaced (str/replace replaced "day01" new-day)]
-    (fs/create-dirs "src" new-year)
-    (fs/create-dirs "resources" new-year)
+    (fs/create-dirs (fs/path "src" new-year))
+    (fs/create-dirs (fs/path "resources" new-year))
     (let [new-day-resource (fs/file "resources" new-year (str new-day ".txt"))]
       (if-not (fs/exists? new-day-resource)
         (if-let [session (System/getenv "AOC_SESSION")]
-          (let [input-url (format "https://adventofcode.com/2022/day/%s/input" (strip-leading-zero day-number))]
+          (let [input-url (format "https://adventofcode.com/20%s/day/%s/input" year (strip-leading-zero day-number))]
             (println "Retrieving input from" input-url)
             (let [body (:body (curl/get input-url {:headers {"Cookie" (str "session=" session)
                                                              "User-Agent" "github.com/borkdude/advent-of-babashka-template by michielborkent@gmail.com"}}))]
